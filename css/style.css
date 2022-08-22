@@ -95,3 +95,52 @@ body {
 .select_btn:hover {
   width: 200px;
 }
+
+.player_select_blog {
+  width: 700px;
+  height: 600px;
+  color: #fff;
+  text-align: center;
+  background-color: black;
+}
+
+.calculation_blog {
+  width: 1000px;
+  text-align: center;
+  background-color: black;
+  color: lightgray;
+  padding: 20px;
+}
+
+.calculation_blog_title {
+  font-style: italic;
+}
+
+.per_player_cost {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.per_player_cost_input {
+  background-color: black;
+  border: 3px solid white;
+  height: 30px;
+}
+
+.calculate_btn {
+  margin-top: 50px;
+  width: 80%;
+  padding: 15px;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: rgba(0, 0, 255, 0.562);
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.calculate_btn:hover {
+  width: 100%;
+}
