@@ -88,7 +88,7 @@ body {
   border: none;
   cursor: pointer;
   color: #fff;
-  background-color: skyblue;
+  background-color: rgba(0, 0, 255, 0.562);
   transition: all 0.5s ease-in-out;
 }
 
@@ -106,6 +106,7 @@ body {
 
 .calculation_blog {
   width: 1000px;
+
   text-align: center;
   background-color: black;
   color: lightgray;
@@ -142,5 +143,53 @@ body {
 }
 
 .calculate_btn:hover {
+  width: 100%;
+}
+
+.player_expenses {
+  margin-top: 20px;
+}
+
+.manager_article {
+  display: flex;
+  margin-bottom: 12px;
+}
+
+.manager_input {
+  margin-left: 10px;
+  border: 3px solid white;
+  border-radius: 3px;
+  background-color: black;
+}
+
+.coach_article {
+  display: flex;
+  margin-bottom: 12px;
+  color: #fff;
+}
+
+.coach_input {
+  color: grey;
+  width: 170px;
+  margin-left: 28px;
+  border: 3px solid white;
+  border-radius: 3px;
+  background-color: black;
+}
+
+.calculate_total_btn {
+  margin-top: 30px;
+  width: 80%;
+  padding: 15px;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: rgba(0, 0, 255, 0.562);
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.calculate_total_btn:hover {
   width: 100%;
 }
