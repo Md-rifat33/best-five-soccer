@@ -38,9 +38,13 @@ body {
 }
 
 .card_section {
+  display: grid;
+  grid-template-columns: 1fr 400px;
+  padding: 20px;
+}
+
+.card_blog {
   display: flex;
-  justify-content: space-around;
-  padding: 10px;
 }
 
 .card {
@@ -97,16 +101,12 @@ body {
 }
 
 .player_select_blog {
-  width: 700px;
-  height: 600px;
-  color: #fff;
   text-align: center;
-  background-color: black;
+  color: grey;
+  font-style: italic;
 }
 
 .calculation_blog {
-  width: 1000px;
-
   text-align: center;
   background-color: black;
   color: lightgray;
@@ -114,6 +114,7 @@ body {
 }
 
 .calculation_blog_title {
+  font-size: 40px;
   font-style: italic;
 }
 
@@ -124,6 +125,8 @@ body {
 }
 
 .per_player_cost_input {
+  color: white;
+  font-size: 15px;
   background-color: black;
   border: 3px solid white;
   height: 30px;
@@ -152,7 +155,9 @@ body {
 
 .manager_article {
   display: flex;
-  margin-bottom: 12px;
+  justify-content: space-around;
+  margin-top: 30px;
+  margin-bottom: 22px;
 }
 
 .manager_input {
@@ -164,12 +169,12 @@ body {
 
 .coach_article {
   display: flex;
+  justify-content: space-around;
   margin-bottom: 12px;
-  color: #fff;
 }
 
 .coach_input {
-  color: grey;
+  color: #fff;
   width: 170px;
   margin-left: 28px;
   border: 3px solid white;
