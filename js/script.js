@@ -41,7 +41,7 @@ function selectPlayer(player, playerBtn) {
     document.getElementById(playerBtn).setAttribute('disabled', true)
     selectedPlayer++
   } else {
-    throw new Error("You Can't select more than 5 player")
+    alert("You Can't select more than 5 player")
   }
 }
 
@@ -51,7 +51,7 @@ function calculatePlayerExpense() {
   const perPlayerInput = document.getElementById('per_player_input')
   const perPlayerCost = +perPlayerInput.value
   if (typeof perPlayerCost !== 'number' || !perPlayerCost) {
-    throw new Error('perPlayerCost must be a number')
+    alert('perPlayerCost must be a number')
   }
   const li = document.querySelectorAll('.list_item')
   const totalCost = perPlayerCost * li.length
@@ -63,13 +63,13 @@ function calculateTotal() {
   const managerInput = document.getElementById('manager_cost')
   const mangerCost = +managerInput.value
   if (typeof mangerCost !== 'number' || !mangerCost) {
-    throw new Error('Please enter number')
+    alert('Please enter number')
   }
   managerInput.value = ''
   const coachInput = document.getElementById('coach_cost')
   const coachCost = +coachInput.value
   if (typeof coachCost !== 'number' || !coachCost) {
-    throw new Error('Please enter number')
+    alert('Please enter number')
   }
   coachInput.value = ''
   const perPlayerInput = document.getElementById('per_player_input')
