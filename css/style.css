@@ -102,10 +102,20 @@ body {
   width: 200px;
 }
 
+.select_btn:disabled {
+  color: gray;
+  width: 150px;
+}
+
 .player_select_blog {
   text-align: center;
+  line-height: 46px;
   color: grey;
   font-style: italic;
+}
+
+ol {
+  list-style-type: decimal;
 }
 
 /* start : calculation blog */
@@ -132,6 +142,7 @@ body {
   font-size: 15px;
   background-color: black;
   border: 3px solid white;
+  padding: 5px 10px;
   height: 30px;
 }
 
@@ -164,6 +175,9 @@ body {
 }
 
 .manager_input {
+  color: #fff;
+  padding: 5px 10px;
+  font-size: 18px;
   margin-left: 10px;
   border: 3px solid white;
   border-radius: 3px;
@@ -178,8 +192,9 @@ body {
 
 .coach_input {
   color: #fff;
-  width: 170px;
-  margin-left: 28px;
+  padding: 5px 10px;
+  font-size: 18px;
+  margin-left: 15px;
   border: 3px solid white;
   border-radius: 3px;
   background-color: black;
